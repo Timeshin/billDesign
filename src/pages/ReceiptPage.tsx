@@ -1,9 +1,10 @@
-import { Receipt } from '@/components'
+import { Arrow, Receipt } from '@/components'
 import { ReceiptLayout } from '@/layouts'
 
 const ReceiptPage = () => (
 	<ReceiptLayout>
 		<Receipt />
+		<Arrow />
 	</ReceiptLayout>
 )
 
