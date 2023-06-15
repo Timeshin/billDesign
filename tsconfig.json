@@ -5,13 +5,9 @@
     "useDefineForClassFields": true,
     "paths": {
       "@/styles/*": ["styles/*"],
-      "@/types/*": ["types/*"],
-      "@/stores": ["stores/index"],
-      "@/config/*": ["config/*"],
-      "@/services/*": ["services/*"],
-      "@/utils/*": ["utils/*"],
-      "@/components": ["presntation/components/index"],
-      "@/layouts": ["presntation/layouts/index"]
+      "@/components": ["components/index"],
+      "@/layouts": ["layouts/index"],
+      "@/pages": ["pages/index"]
     },
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,

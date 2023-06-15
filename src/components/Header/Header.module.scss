@@ -1,0 +1,14 @@
+.header {
+	width: 90vw;
+	padding-top: 20px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+
+	p {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		font-weight: 600;
+	}
+}

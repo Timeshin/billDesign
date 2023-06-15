@@ -10,13 +10,9 @@ export default ({ mode }) => {
 		resolve: {
 			alias: {
 				'@/styles': path.resolve(__dirname, './src/styles/'),
-				'@/types': path.resolve(__dirname, './src/types/'),
-				'@/mobx': path.resolve(__dirname, './src/stores/'),
-				'@/config': path.resolve(__dirname, './src/config/'),
-				'@/services': path.resolve(__dirname, './src/services/'),
-				'@/utils': path.resolve(__dirname, './src/utils/'),
 				'@/components': path.resolve(__dirname, './src/components/'),
-				'@/layouts': path.resolve(__dirname, './src/layouts/')
+				'@/layouts': path.resolve(__dirname, './src/layouts/'),
+				'@/pages': path.resolve(__dirname, './src/pages/')
 			}
 		},
 		plugins: [react()],

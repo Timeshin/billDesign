@@ -1,0 +1,22 @@
+@import './fonts';
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 24px;
+	font-family: 'Gilroy';
+	font-weight: 600;
+}
+
+p {
+	color: #a0a0a0;
+}
+
+button {
+	border: none;
+	outline: none;
+}
