@@ -1,5 +1,10 @@
+import { Receipt } from '@/components'
 import { ReceiptLayout } from '@/layouts'
 
-const ReceiptPage = () => <ReceiptLayout>Content</ReceiptLayout>
+const ReceiptPage = () => (
+	<ReceiptLayout>
+		<Receipt />
+	</ReceiptLayout>
+)
 
 export default ReceiptPage

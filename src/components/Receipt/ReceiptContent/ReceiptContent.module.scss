@@ -1,0 +1,31 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  margin: 0 auto;
+  top: 8px;
+  width: 90%;
+  height: 44vh;
+  background: linear-gradient(180deg, #E8E8E8 0%, #FFFFFF 8.21%, #FFFFFF 53.72%, #E8E8E8 93.1%);
+  border: 1px solid #EBEBEC;
+  box-shadow: 0px 4px 10px rgba(52, 52, 62, 0.3), 0px 10px 30px rgba(52, 52, 62, 0.15);
+  border-radius: 2px;
+  padding-top: 4.2vh;
+  mask: conic-gradient(from -40deg at bottom,#0000,#000 1deg 79deg,#0000 80deg) 50%/50.35px 100%;
+  -webkit-mask: conic-gradient(from -40deg at bottom,#0000,#000 1deg 79deg,#0000 80deg) 50%/50.35px 100%;
+
+  h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #A0A0A0;
+  }
+
+  .text {
+    margin-top: 44px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 56px;
+    color: #00923A;
+  }
+}
