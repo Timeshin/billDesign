@@ -37,3 +37,4 @@ docker-compose up
 
 ## Presentation
 
+<img width="429" alt="image" src="https://github.com/Timeshin/receiptDesign/assets/108158687/c80bc50b-0e20-47d3-9055-8a6a4807bfcf">
